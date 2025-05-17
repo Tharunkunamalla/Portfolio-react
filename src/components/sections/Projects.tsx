@@ -30,7 +30,7 @@ const projectsData: Project[] = [
     title: "Tournament Management System",
     description:
       "A web application for managing tournaments, including user authentication, team management, and match scheduling.",
-    image: "src/assets/TMS_proj.png",
+    image: "/assets/TMS_proj.png",
     technologies: ["Php", "SQL", "JS", "CSS", "HTML"],
     liveLink: "https://google.com",
     codeLink: "https://github.com/Tharunkunamalla/TMS",
@@ -40,7 +40,7 @@ const projectsData: Project[] = [
     title: "Portfolio Website",
     description:
       "A personal portfolio website showcasing my projects, skills, and experience.",
-    image: "src/assets/portfolio.png",
+    image: "/assets/portfolio.png",
     technologies: ["Js", "CSS", "HTML"],
     liveLink: "https://tharun-kunamalla.netlify.app/",
     codeLink: "https://github.com/Tharunkunamalla/Portfolio-js",
@@ -50,7 +50,7 @@ const projectsData: Project[] = [
     title: "Lenz.co- Spectacles webstore",
     description:
       "A web application for an eyewear store, featuring user authentication, product management, and a shopping cart.",
-    image: "src/assets/Lenz_proj.png",
+    image: "/assets/Lenz_proj.png",
     technologies: ["React", "Next.js", "Tailwind CSS", "Vercel"],
     liveLink: "https://google.com",
     codeLink: "https://github.com",
@@ -60,7 +60,7 @@ const projectsData: Project[] = [
     title: "Gemini-AI",
     description:
       "An AI assistant dashboard interface integrated with smart modules and a beautiful UI.",
-    image: "src/assets/gemini.jpg",
+    image: "/assets/gemini.jpg",
     technologies: ["JS", "Css", "OpenAI API"],
     liveLink: "https://google.com",
     codeLink: "https://github.com/Tharunkunamalla/Gemini_App",
@@ -70,7 +70,7 @@ const projectsData: Project[] = [
     title: "Jarvis -Voice Assistant",
     description:
       "A real-time AI chatbot that communicates in natural language and helps users perform tasks via chat.",
-    image: "src/assets/jarvis.jpg",
+    image: "/assets/jarvis.jpg",
     technologies: ["JS", "OpenAI API"],
     liveLink: "https://example.com",
     codeLink: "https://github.com/Tharunkunamalla/Jarvis",
