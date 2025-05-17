@@ -188,7 +188,8 @@ const About: React.FC = () => {
                 <button
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/file/d/19fz2-Im_FpQ_N5Ebv95vW2Ns_MqDAkuP/view?usp=sharing",
+                      // "https://drive.google.com/file/d/19fz2-Im_FpQ_N5Ebv95vW2Ns_MqDAkuP/view?usp=sharing",
+                      "https://portfolio-tharun-kunamalla.vercel.app/",
                       "_blank"
                     )
                   }
