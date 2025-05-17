@@ -62,7 +62,7 @@ const projectsData: Project[] = [
       "An AI assistant dashboard interface integrated with smart modules and a beautiful UI.",
     image: "/assets/gemini.jpg",
     technologies: ["JS", "Css", "OpenAI API"],
-    liveLink: "https://google.com",
+    liveLink: "https://gemini-app-chatbot.vercel.app/",
     codeLink: "https://github.com/Tharunkunamalla/Gemini_App",
   },
   {
