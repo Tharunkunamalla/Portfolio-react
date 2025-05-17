@@ -72,7 +72,7 @@ const projectsData: Project[] = [
       "A real-time AI chatbot that communicates in natural language and helps users perform tasks via chat.",
     image: "/assets/jarvis.jpg",
     technologies: ["JS", "OpenAI API"],
-    liveLink: "https://example.com",
+    liveLink: "https://google.com",
     codeLink: "https://github.com/Tharunkunamalla/Jarvis",
   },
 ];
