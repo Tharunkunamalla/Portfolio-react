@@ -170,6 +170,7 @@ const About: React.FC = () => {
                 development started during my college years, and since then,
                 I've been constantly learning and improving my skills.
               </p>
+              <br />
 
               <p className="text-gray-600 dark:text-gray-300 text-center">
                 I'm enthusiastic about creating seamless user experiences and
@@ -177,7 +178,7 @@ const About: React.FC = () => {
                 expertise includes React, TypeScript, Tailwind CSS, and other
                 modern frontend technologies.
               </p>
-
+              <br />
               <p className="text-gray-600 dark:text-gray-300 text-center">
                 Outside of coding, I enjoy exploring new technologies,
                 contributing to open-source projects, and sharing knowledge
