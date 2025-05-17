@@ -133,7 +133,7 @@ const Home: React.FC<HomeProps> = ({scrollToSection}) => {
         <img
           src="/assets/loader.gif"
           alt="Loading..."
-          className="w-24 h-24 object-contain"
+          className="w-30 h-30 object-contain"
         />
       </div>
 
