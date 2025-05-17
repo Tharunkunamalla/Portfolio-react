@@ -12,7 +12,7 @@ const projectsData: Project[] = [
     title: "Sapphire Skies Resort",
     description:
       "A fully responsive web application for a resort booking system, featuring user authentication, room management, and booking functionalities.",
-    image: "src/assets/sapphire.png",
+    image: "/assets/sapphire.png",
     technologies: [
       "React",
       "Tailwind CSS",

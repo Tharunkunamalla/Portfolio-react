@@ -184,7 +184,7 @@ const Home: React.FC<HomeProps> = ({scrollToSection}) => {
         <div className="order-1 md:order-2 flex justify-center">
           <div className="relative w-64 h-64 md:w-80 md:h-80">
             <img
-              src="../src/assets/profile.png"
+              src="/assets/profile.png"
               alt="Tharun - Frontend Developer"
               className="w-full h-full object-cover rounded-3xl animate-float"
             />
