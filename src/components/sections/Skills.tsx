@@ -79,14 +79,15 @@ const skillsData: Skill[] = [
   {name: "GSAP", icon: <SiGreensock />, level: 7, category: "frontend"},
 
   // Backend
-  {name: "C", icon: <BiCodeAlt />, level: 8, category: "backend"},
-  {name: "C++", icon: <BiCodeAlt />, level: 6, category: "backend"},
   {name: "Java", icon: <FaJava />, level: 9, category: "backend"},
-  {name: "PHP", icon: <SiPhp />, level: 7, category: "backend"},
-  {name: "SQL", icon: <SiMysql />, level: 7, category: "backend"},
-  {name: "Node.js", icon: <SiNodedotjs />, level: 7, category: "backend"},
+  {name: "Python", icon: <SiPython />, level: 8, category: "tools"},
   {name: "Express.js", icon: <SiExpress />, level: 7, category: "backend"},
+  {name: "Node.js", icon: <SiNodedotjs />, level: 7, category: "backend"},
   {name: "MongoDB", icon: <SiMongodb />, level: 7, category: "backend"},
+  {name: "SQL", icon: <SiMysql />, level: 7, category: "backend"},
+  {name: "PHP", icon: <SiPhp />, level: 7, category: "backend"},
+  {name: "C++", icon: <BiCodeAlt />, level: 6, category: "backend"},
+  {name: "C", icon: <BiCodeAlt />, level: 8, category: "backend"},
 
   // Tools & Workflows
   {name: "ROS", icon: <SiRos />, level: 6, category: "tools"},
@@ -110,7 +111,6 @@ const skillsData: Skill[] = [
   {name: "Firebase", icon: <SiFirebase />, level: 7, category: "tools"},
   {name: "Vite", icon: <SiVite />, level: 7, category: "tools"},
   {name: "GraphQL", icon: <SiGraphql />, level: 7, category: "tools"},
-  {name: "Python", icon: <SiPython />, level: 8, category: "tools"},
 ];
 
 const groupedSkills = skillsData.reduce((acc, skill) => {
