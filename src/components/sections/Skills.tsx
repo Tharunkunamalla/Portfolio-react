@@ -108,9 +108,7 @@ const skillsData: Skill[] = [
   {name: "Blender", icon: <SiBlender />, level: 6, category: "tools"},
   {name: "Vercel", icon: <SiVercel />, level: 8, category: "tools"},
   {name: "Firebase", icon: <SiFirebase />, level: 7, category: "tools"},
-  {name: "Webpack", icon: <SiWebpack />, level: 7, category: "tools"},
   {name: "Vite", icon: <SiVite />, level: 7, category: "tools"},
-  {name: "Jest", icon: <SiJest />, level: 7, category: "tools"},
   {name: "GraphQL", icon: <SiGraphql />, level: 7, category: "tools"},
   {name: "Python", icon: <SiPython />, level: 8, category: "tools"},
 ];
