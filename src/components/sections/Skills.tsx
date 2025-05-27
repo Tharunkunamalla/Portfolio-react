@@ -33,9 +33,9 @@ import {
   SiPython,
   SiPhp,
   SiRos,
-  SiKeras,
-  SiPytorch,
-  SiTensorflow,
+  // SiKeras,
+  // SiPytorch,
+  // SiTensorflow,
   SiNumpy,
   SiPandas,
   SiPlotly,
@@ -49,7 +49,7 @@ import {
   SiBootstrap,
   SiVercel,
 } from "react-icons/si";
-import {MdMobileFriendly} from "react-icons/md";
+// import {MdMobileFriendly} from "react-icons/md";
 import {FaJava} from "react-icons/fa";
 import {BiCodeAlt} from "react-icons/bi";
 import {VscCode} from "react-icons/vsc";
@@ -91,9 +91,9 @@ const skillsData: Skill[] = [
 
   // Tools & Workflows
   {name: "ROS", icon: <SiRos />, level: 6, category: "tools"},
-  {name: "Keras", icon: <SiKeras />, level: 7, category: "tools"},
-  {name: "PyTorch", icon: <SiPytorch />, level: 7, category: "tools"},
-  {name: "TensorFlow", icon: <SiTensorflow />, level: 6, category: "tools"},
+  // {name: "Keras", icon: <SiKeras />, level: 7, category: "tools"},
+  // {name: "PyTorch", icon: <SiPytorch />, level: 7, category: "tools"},
+  // {name: "TensorFlow", icon: <SiTensorflow />, level: 6, category: "tools"},
   {name: "NumPy", icon: <SiNumpy />, level: 8, category: "tools"},
   {name: "Pandas", icon: <SiPandas />, level: 8, category: "tools"},
   {name: "Matplotlib", icon: <SiPlotly />, level: 7, category: "tools"},
