@@ -13,7 +13,7 @@ const aboutData: AboutBox[] = [
       {
         name: "B.Tech in Computer Science",
         date: "2023 - 2027",
-        description: "IIIT-Kottayam, Kerala",
+        description: "IIIT- Kottayam, Kerala",
       },
       {
         name: "Intermediate Education",
@@ -168,21 +168,20 @@ const About: React.FC = () => {
                 I specialize in creating responsive and interactive web
                 applications with modern technologies. My journey in web
                 development started during my college years, and since then,
-                I've been constantly learning and improving my skills.
+                I've been constantly learning and still improving my skills.
               </p>
               <br />
 
               <p className="text-gray-600 dark:text-gray-300 text-center">
-                I'm enthusiastic about creating seamless user experiences and
-                solving complex problems through clean, efficient code. My
-                expertise includes React, TypeScript, Tailwind CSS, and other
-                modern frontend technologies.
+                I enjoy creating smooth user experiences and solving problems
+                with clean, efficient code. I work with React, Javascript,
+                Tailwind CSS, and other modern frontend tools.
               </p>
               <br />
               <p className="text-gray-600 dark:text-gray-300 text-center">
-                Outside of coding, I enjoy exploring new technologies,
-                contributing to open-source projects, and sharing knowledge
-                through tech communities.
+                Outside of coding, I’m focused on learning Data Structures and
+                Algorithms <span className="text-secondary-500">(DSA)</span> and
+                enjoy solving challenging problems to improve my skills.
               </p>
 
               <div className="pt-4">
@@ -190,7 +189,7 @@ const About: React.FC = () => {
                   onClick={() =>
                     window.open(
                       // "https://drive.google.com/file/d/19fz2-Im_FpQ_N5Ebv95vW2Ns_MqDAkuP/view?usp=sharing",
-                      "https://portfolio-tharun-kunamalla.vercel.app/",
+                      "https://www.linkedin.com/in/tharun-kunamalla-b9b477288//",
                       "_blank"
                     )
                   }
@@ -208,7 +207,7 @@ const About: React.FC = () => {
               <div
                 key={box.id}
                 ref={(el) => (boxRefs.current[index] = el)}
-                className="bg-white dark:bg-dark-300 rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-300"
+                className="bg-white dark:bg-dark-300 rounded-xl shadow-md p-6 hover:shadow-2xl transition-shadow duration-500"
               >
                 <h3 className="text-xl font-semibold text-secondary-500 mb-4">
                   {box.title}
@@ -218,7 +217,7 @@ const About: React.FC = () => {
                   {box.items.map((item, i) => (
                     <div
                       key={i}
-                      className="border-l-2 border-gray-200 dark:border-gray-700 pl-4 py-1"
+                      className="border-l-2 border-gray-200 dark:border-gray-700 pl-4 py-1" // For left border
                     >
                       <h4
                         className={`font-medium ${
@@ -235,7 +234,7 @@ const About: React.FC = () => {
                         </p>
                       )}
                       {item.description && (
-                        <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">
+                        <p className="text-sm text-gray-700 dark:text-gray-300 mt-1">
                           {item.description}
                         </p>
                       )}
