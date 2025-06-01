@@ -88,7 +88,7 @@ const projectsData: Project[] = [
     description:
       "A real-time voice assistant that responds to speech and fetches data from Google.",
     image: "/assets/jarvis.gif",
-    technologies: ["JS", "OpenAI API"],
+    technologies: ["JS", "Google"],
     liveLink: "https://jarvis-responder.vercel.app/",
     codeLink: "https://github.com/Tharunkunamalla/Jarvis",
   },
@@ -243,7 +243,7 @@ const Projects: React.FC = () => {
             href="https://github.com/Tharunkunamalla"
             target="_blank"
             rel="noopener noreferrer"
-            className="interactive inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gray-800 dark:bg-gray-700 text-white hover:bg-secondary-500 transition-colors duration-300"
+            className="interactive inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gray-800 dark:bg-gray-700 text-white hover:dark:bg-secondary-500 hover:bg-secondary-500 transition-colors duration-300"
           >
             More Projects on GitHub <Github className="h-5 w-5" />
           </a>
