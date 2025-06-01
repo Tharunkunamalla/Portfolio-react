@@ -62,16 +62,16 @@ const projectsData: Project[] = [
     liveLink: "https://tharun-kunamalla.netlify.app/",
     codeLink: "https://github.com/Tharunkunamalla/Portfolio-js",
   },
-  {
-    id: 5,
-    title: "Lenz.co- Spectacles webstore",
-    description:
-      "A web application for an eyewear store, featuring user authentication, product management, and a shopping cart.",
-    image: "/assets/Lenz_proj.png",
-    technologies: ["React", "Next.js", "Tailwind CSS", "Vercel"],
-    liveLink: "https://google.com",
-    codeLink: "https://github.com",
-  },
+  // {
+  //   id: 5,
+  //   title: "Lenz.co- Spectacles webstore",
+  //   description:
+  //     "A web application for an eyewear store, featuring user authentication, product management, and a shopping cart.",
+  //   image: "/assets/Lenz_proj.png",
+  //   technologies: ["React", "Next.js", "Tailwind CSS", "Vercel"],
+  //   liveLink: "https://google.com",
+  //   codeLink: "https://github.com",
+  // },
   {
     id: 6,
     title: "Gemini-AI",
