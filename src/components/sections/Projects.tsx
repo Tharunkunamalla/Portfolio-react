@@ -9,6 +9,23 @@ gsap.registerPlugin(ScrollTrigger);
 const projectsData: Project[] = [
   {
     id: 1,
+    title: "FaceRipple",
+    description: "Video Calling Realtime Chat App & Social App",
+    image: "/assets/FaceRipple.png",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Postman-Api",
+      "Tailwind CSS",
+      "getStream",
+    ],
+    liveLink: "https://google.com",
+    codeLink: "https://github.com/Tharunkunamalla/FaceRipple",
+  },
+  {
+    id: 2,
     title: "Sapphire Skies Resort",
     description:
       "A fully responsive web application for a resort booking system, featuring user authentication, room management, and booking functionalities.",
@@ -26,7 +43,7 @@ const projectsData: Project[] = [
     codeLink: "https://github.com/Tharunkunamalla/Sapphire-skies-resort",
   },
   {
-    id: 2,
+    id: 3,
     title: "Tournament Management System",
     description:
       "A web application for managing tournaments, including user authentication, team management, and match scheduling.",
@@ -36,7 +53,7 @@ const projectsData: Project[] = [
     codeLink: "https://github.com/Tharunkunamalla/TMS",
   },
   {
-    id: 3,
+    id: 4,
     title: "Portfolio Website",
     description:
       "A personal portfolio website showcasing my projects, skills, and experience.",
@@ -46,7 +63,7 @@ const projectsData: Project[] = [
     codeLink: "https://github.com/Tharunkunamalla/Portfolio-js",
   },
   {
-    id: 4,
+    id: 5,
     title: "Lenz.co- Spectacles webstore",
     description:
       "A web application for an eyewear store, featuring user authentication, product management, and a shopping cart.",
@@ -56,7 +73,7 @@ const projectsData: Project[] = [
     codeLink: "https://github.com",
   },
   {
-    id: 5,
+    id: 6,
     title: "Gemini-AI",
     description:
       "An AI assistant dashboard interface integrated with smart modules and a beautiful UI.",
@@ -66,7 +83,7 @@ const projectsData: Project[] = [
     codeLink: "https://github.com/Tharunkunamalla/Gemini_App",
   },
   {
-    id: 6,
+    id: 7,
     title: "Jarvis -Voice Assistant",
     description:
       "A real-time AI chatbot that communicates in natural language and helps users perform tasks via chat.",
