@@ -87,7 +87,7 @@ const projectsData: Project[] = [
     title: "Jarvis -Voice Assistant",
     description:
       "A real-time AI chatbot that communicates in natural language and helps users perform tasks via chat.",
-    image: "/assets/jarvis.jpg",
+    image: "/assets/jarvis.gif",
     technologies: ["JS", "OpenAI API"],
     liveLink: "https://google.com",
     codeLink: "https://github.com/Tharunkunamalla/Jarvis",
