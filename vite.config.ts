@@ -8,4 +8,5 @@ export default defineConfig({
     exclude: ["lucide-react"],
   },
   // base: process.env.VITE_BASE_PATH ?? "/Portfolio-react",
+  // this can be added
 });
