@@ -100,7 +100,7 @@ const About: React.FC = () => {
         scrollTrigger: {
           trigger: sectionRef.current,
           start: "top 80%",
-          toggleActions: "play none none none",
+          toggleActions: "play none none reset",
         },
       });
 
@@ -112,7 +112,7 @@ const About: React.FC = () => {
         scrollTrigger: {
           trigger: sectionRef.current,
           start: "top 80%",
-          toggleActions: "play none none none",
+          toggleActions: "play none none reset",
         },
       });
 
@@ -126,7 +126,7 @@ const About: React.FC = () => {
             scrollTrigger: {
               trigger: boxesRef.current,
               start: "top 80%",
-              toggleActions: "play none none none",
+              toggleActions: "play none none reset",
             },
           });
         }
