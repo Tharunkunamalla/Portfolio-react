@@ -39,7 +39,7 @@ const projectsData: Project[] = [
       "Clerk",
       "Prebuilt UI",
     ],
-    liveLink: "https://google.com",
+    liveLink: "https://sapphire-skies-resort.vercel.app/",
     codeLink: "https://github.com/Tharunkunamalla/Sapphire-skies-resort",
   },
   {
