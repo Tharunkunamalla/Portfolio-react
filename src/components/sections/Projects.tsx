@@ -21,7 +21,7 @@ const projectsData: Project[] = [
       "Tailwind CSS",
       "getStream",
     ],
-    liveLink: "https://google.com",
+    liveLink: "https://faceripple.onrender.com/",
     codeLink: "https://github.com/Tharunkunamalla/FaceRipple",
   },
   {
