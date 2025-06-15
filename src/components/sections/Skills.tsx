@@ -136,7 +136,7 @@ const Skills: React.FC = () => {
         duration: 1,
         scrollTrigger: {
           trigger: sectionRef.current,
-          start: "top 80%",
+          start: "top 95%",
           toggleActions: "play none none reset",
         },
       });
@@ -150,7 +150,7 @@ const Skills: React.FC = () => {
             delay: 0.3 * index,
             scrollTrigger: {
               trigger: category,
-              start: "top 90%",
+              start: "top 95%",
               toggleActions: "play none none reset",
             },
           });
@@ -182,7 +182,7 @@ const Skills: React.FC = () => {
                 ease: "power2.out",
                 scrollTrigger: {
                   trigger: bar,
-                  start: "top 90%",
+                  start: "top 95%",
                   toggleActions: "play none none reset",
                 },
               }

@@ -22,11 +22,21 @@ const Navbar: React.FC<NavbarProps> = ({activeSection, scrollToSection}) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
+      if (window.innerWidth >= 768) {
+        setIsScrolled(window.scrollY > 50);
+      } else {
+        setIsScrolled(false);
+      }
     };
 
+    handleScroll(); // trigger on mount
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener("resize", handleScroll); // re-evaluate on resize
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleScroll);
+    };
   }, []);
 
   const handleNavClick = (sectionId: string) => {
@@ -38,7 +48,7 @@ const Navbar: React.FC<NavbarProps> = ({activeSection, scrollToSection}) => {
     <nav
       className={`fixed top-0 left-0 w-full z-40 transition-all duration-300 ${
         isScrolled
-          ? "bg-light-100/90 dark:bg-dark-100/90 backdrop-blur-md py-5 md:py-6 shadow-md"
+          ? "bg-light-100/90 dark:bg-dark-100/90 backdrop-blur-md py-5  shadow-md"
           : "bg-transparent py-5 md:py-6"
       }`}
     >
@@ -135,7 +145,7 @@ const Navbar: React.FC<NavbarProps> = ({activeSection, scrollToSection}) => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden fixed inset-0 z-50 bg-light-100 dark:bg-dark-100 pt-24 transition-all duration-300">
+        <div className="md:hidden fixed inset-0 z-50 bg-light-100/90 dark:bg-dark-100/90 backdrop-blur-md pt-24 transition-all duration-300">
           {/* X (close) button */}
           <button
             onClick={() => setIsMenuOpen(false)}

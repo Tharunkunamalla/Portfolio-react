@@ -112,7 +112,7 @@ const Projects: React.FC = () => {
         duration: 1,
         scrollTrigger: {
           trigger: sectionRef.current,
-          start: "top 80%",
+          start: "top 95%",
           toggleActions: "play none none reset",
         },
       });
@@ -127,7 +127,7 @@ const Projects: React.FC = () => {
             delay: 0.2 * (index % 3), // Stagger effect based on column position
             scrollTrigger: {
               trigger: project,
-              start: "top 90%",
+              start: "top 95%",
               toggleActions: "play none none reset",
             },
           });

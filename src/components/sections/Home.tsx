@@ -9,6 +9,7 @@ import {
   Mail,
   Code2,
 } from "lucide-react";
+import {TypeAnimation} from "react-type-animation";
 
 gsap.registerPlugin(MotionPathPlugin);
 
@@ -50,7 +51,6 @@ function spawnBubble(container: HTMLDivElement) {
 const Home: React.FC<HomeProps> = ({scrollToSection}) => {
   const sectionRef = useRef<HTMLElement>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
-  const subtitleRef = useRef<HTMLParagraphElement>(null);
   const descriptionRef = useRef<HTMLParagraphElement>(null);
   const buttonsRef = useRef<HTMLDivElement>(null);
   const scrollDownRef = useRef<HTMLDivElement>(null);
@@ -61,7 +61,6 @@ const Home: React.FC<HomeProps> = ({scrollToSection}) => {
     const ctx = gsap.context(() => {
       const tl = gsap.timeline({defaults: {ease: "power3.out"}});
       tl.from(headingRef.current, {y: 50, opacity: 0, duration: 1})
-        .from(subtitleRef.current, {y: 30, opacity: 0, duration: 0.8}, "-=0.6")
         .from(
           descriptionRef.current,
           {y: 30, opacity: 0, duration: 0.8},
@@ -170,19 +169,26 @@ const Home: React.FC<HomeProps> = ({scrollToSection}) => {
               </span>
             </h1>
 
-            <p
-              ref={subtitleRef}
+            {/* Typing animation */}
+            <TypeAnimation
+              sequence={[
+                "Frontend Developer",
+                2000,
+                "Full Stack Developer",
+                2000,
+              ]}
+              wrapper="p"
+              speed={50}
               className="text-xl md:text-2xl font-medium text-primary-600 dark:text-primary-400 mb-6"
-            >
-              FrontEnd Developer
-            </p>
+              repeat={Infinity}
+            />
 
             <p
               ref={descriptionRef}
               className="text-gray-600 dark:text-gray-300 mb-8 max-w-lg"
             >
-              Skilled in FrontEnd Development and BackEnd Development, looking
-              for opportunities to enhance my skills
+              Skilled in FrontEnd Development and Full Stack Development,
+              looking for opportunities to enhance my skills
             </p>
 
             <p className="text-gray-600 dark:text-gray-300 mb-8">
@@ -210,7 +216,7 @@ const Home: React.FC<HomeProps> = ({scrollToSection}) => {
           <div className="order-1 md:order-2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80">
               <img
-                src="/assets/profile.png"
+                src="/assets/img.png"
                 alt="Tharun - Frontend Developer"
                 className="w-full h-full object-cover rounded-3xl animate-float"
               />

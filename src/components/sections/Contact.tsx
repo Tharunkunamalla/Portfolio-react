@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
         duration: 1,
         scrollTrigger: {
           trigger: sectionRef.current,
-          start: "top 80%",
+          start: "top 95%",
           toggleActions: "play none none reset",
         },
       });
@@ -43,7 +43,7 @@ const Contact: React.FC = () => {
         delay: 0.3,
         scrollTrigger: {
           trigger: sectionRef.current,
-          start: "top 80%",
+          start: "top 95%",
           toggleActions: "play none none reset",
         },
       });
@@ -55,7 +55,7 @@ const Contact: React.FC = () => {
         delay: 0.5,
         scrollTrigger: {
           trigger: sectionRef.current,
-          start: "top 80%",
+          start: "top 95%",
           toggleActions: "play none none reset",
         },
       });
@@ -138,7 +138,7 @@ const Contact: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <h2
           ref={headingRef}
-          className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800 dark:text-white"
+          className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-950 dark:text-white"
         >
           Get In <span className="text-secondary-500">Touch</span>
         </h2>
@@ -239,7 +239,7 @@ const Contact: React.FC = () => {
           {/* Contact Information */}
           <div ref={infoRef} className="space-y-8">
             <div className="bg-white dark:bg-dark-300 rounded-xl shadow-md p-6">
-              <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-6">
+              <h3 className="text-xl font-semibold text-gray-950 dark:text-white mb-6">
                 Contact Information
               </h3>
 
@@ -254,7 +254,7 @@ const Contact: React.FC = () => {
                     </h4>
                     <a
                       href="mailto:kunamallatharun701@gmail.com"
-                      className="text-gray-800 dark:text-white hover:text-secondary-500 dark:hover:text-secondary-400 transition-colors duration-300"
+                      className="text-gray-950 dark:text-white hover:text-secondary-500 dark:hover:text-secondary-400 transition-colors duration-300"
                     >
                       kunamallatharun701@gmail.com
                     </a>
@@ -270,10 +270,10 @@ const Contact: React.FC = () => {
                       Phone
                     </h4>
                     <a
-                      href="tel:+91-6303-480-726"
-                      className="text-gray-800 dark:text-white hover:text-secondary-500 dark:hover:text-secondary-400 transition-colors duration-300"
+                      href="tel:+91-6303-495-726"
+                      className="text-gray-950 dark:text-white hover:text-secondary-500 dark:hover:text-secondary-400 transition-colors duration-300"
                     >
-                      +91 6303-480-726
+                      +91 6303-495-726
                     </a>
                   </div>
                 </div>
@@ -286,7 +286,7 @@ const Contact: React.FC = () => {
                     <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">
                       Location
                     </h4>
-                    <p className="text-gray-800 dark:text-white">
+                    <p className="text-gray-950 dark:text-white">
                       Telangana, India
                     </p>
                   </div>
@@ -295,7 +295,7 @@ const Contact: React.FC = () => {
             </div>
 
             <div className="bg-white dark:bg-dark-300 rounded-xl shadow-md p-6">
-              <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-6">
+              <h3 className="text-xl font-semibold text-gray-950 dark:text-white mb-6">
                 Follow Me
               </h3>
               <div className="flex space-x-4">
@@ -303,7 +303,7 @@ const Contact: React.FC = () => {
                   href="https://github.com/Tharunkunamalla"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="interactive w-10 h-10 rounded-full bg-gray-100 dark:bg-dark-200 flex items-center justify-center text-gray-800 dark:text-white hover:bg-secondary-500 hover:text-white transition-all duration-300"
+                  className="interactive w-10 h-10 rounded-full bg-gray-100 dark:bg-dark-200 flex items-center justify-center text-gray-950 dark:text-white hover:bg-secondary-500 hover:text-white transition-all duration-300"
                 >
                   <Github className="h-5 w-5" />
                   <span className="sr-only">GitHub</span>
@@ -312,7 +312,7 @@ const Contact: React.FC = () => {
                   href="https://www.linkedin.com/in/tharun-kunamalla-b9b477288/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="interactive w-10 h-10 rounded-full bg-gray-100 dark:bg-dark-200 flex items-center justify-center text-gray-800 dark:text-white hover:bg-secondary-500 hover:text-white transition-all duration-300"
+                  className="interactive w-10 h-10 rounded-full bg-gray-100 dark:bg-dark-200 flex items-center justify-center text-gray-950 dark:text-white hover:bg-secondary-500 hover:text-white transition-all duration-300"
                 >
                   <Linkedin className="h-5 w-5" />
                   <span className="sr-only">LinkedIn</span>
@@ -321,7 +321,7 @@ const Contact: React.FC = () => {
                   href="https://x.com/Tharunk0509"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="interactive w-10 h-10 rounded-full bg-gray-100 dark:bg-dark-200 flex items-center justify-center text-gray-800 dark:text-white hover:bg-secondary-500 hover:text-white transition-all duration-300"
+                  className="interactive w-10 h-10 rounded-full bg-gray-100 dark:bg-dark-200 flex items-center justify-center text-gray-950 dark:text-white hover:bg-secondary-500 hover:text-white transition-all duration-300"
                 >
                   <Twitter className="h-5 w-5" />
                   <span className="sr-only">Twitter</span>
@@ -330,7 +330,7 @@ const Contact: React.FC = () => {
                   href="https://www.instagram.com/__tharun_0509.__/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="interactive w-10 h-10 rounded-full bg-gray-100 dark:bg-dark-200 flex items-center justify-center text-gray-800 dark:text-white hover:bg-secondary-500 hover:text-white transition-all duration-300"
+                  className="interactive w-10 h-10 rounded-full bg-gray-100 dark:bg-dark-200 flex items-center justify-center text-gray-950 dark:text-white hover:bg-secondary-500 hover:text-white transition-all duration-300"
                 >
                   <Instagram className="h-5 w-5" />
                   <span className="sr-only">Instagram</span>
