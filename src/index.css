@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* * {
+  outline: 1px solid red !important;
+} */
+
 /* Custom styles for the home page with bubbles*/
 .bubble {
   --bubble-size: 40px;
