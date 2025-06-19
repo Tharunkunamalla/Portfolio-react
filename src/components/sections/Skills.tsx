@@ -1,7 +1,12 @@
 import React, {useEffect, useRef, useState} from "react";
 import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
-import {Skill} from "../types.tsx";
+type Skill = {
+  name: string;
+  icon: React.ReactNode;
+  level: number;
+  category: "frontend" | "backend" | "tools" | "other";
+};
 import {
   Code,
   Database,
