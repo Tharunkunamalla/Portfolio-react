@@ -7,10 +7,6 @@ type Skill = {
   level: number;
   category: "frontend" | "backend" | "tools" | "other";
 };
-<<<<<<< HEAD
-
-=======
->>>>>>> 3b183935e54d364a737eae097016efdd29d40d08
 import {
   Code,
   Database,
